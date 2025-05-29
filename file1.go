@@ -1,10 +1,10 @@
-// my very first go program
+// My very first go program
 package main
 
 import (
 	"fmt"
 
-	"github.com/scaroph/go-learning-fiesta/file2"
+	"github.com/scaroph/go-learning-fiesta/file2.go"
 )
 
 // Exported variable
