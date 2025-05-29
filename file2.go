@@ -1,6 +1,6 @@
 //file2.go
 
-package main
+package file2
 
 //Exported variable
 var AnotherExportedVariable = "Greetings from file2!"
