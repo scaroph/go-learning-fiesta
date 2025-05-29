@@ -3,10 +3,19 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/scaroph/go-learning-fiesta/file2"
 )
 
+// Exported variable
+var ExportedVariable = "Hello, World!"
+
 func main() {
-	fmt.Println("!... Hello World ...!")
+	// Accessing exported identifier in the same file
+	fmt.Println(ExportedVariable)
+
+	// Accessing exported identifier from another package
+	fmt.Println(file2.AnotherExportedVariable)
 }
 
 /*
